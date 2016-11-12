@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <title>Dry Oar Boating</title>
         <style>
+            *{
+                box-sizing: border-box;
+            }
             @import url('https://fonts.googleapis.com/css?family=Gruppo|Overlock+SC');
             section {
             color: #881F00;
@@ -15,8 +18,6 @@
             
             #middlerow {
                 background-color: whitesmoke;
-                width: 48%;
-              
             }
             
             h1,h2 {
@@ -26,9 +27,32 @@
                 margin-bottom: 0;
             }
             
+            #toprow, #middlerow {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            
+            .leftcol {
+                width: 48%;
+                flex: 1 0 15 em;
+                margin: .5em;
+                flex: 2;
+                align-items:center;
+            }
+            
+            .rightcol {
+                width: 48%;
+                flex: 1 0 15em;
+                align-items:center; 
+            }
+            
             nav {
                 color: white;
                 background: #881F00;
+            }
+            
+            img {
+                max-width:100%;
             }
             
             .content {
@@ -38,10 +62,9 @@
             }
             
             #bottomrow {
-                width: 80%;
+                width: 100%;
                 margin: 0 auto;
                 text-align:center;
-                
             }
             
             body {
@@ -52,6 +75,19 @@
                 line-height: 1;
             }
             
+            .fullwidth {
+                width:100%;
+            }
+            
+            .footer {
+                float: left;
+                height:55px; 
+            }
+    
+            .footer-img {
+                float:right;
+                height:55px;
+            }
         </style>
         
     </head>
@@ -69,26 +105,38 @@
                 <li><a href="index.html">Contact Us</a></li>
             </ul>   
         </nav>
-        <img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="Dry Oar Banner">
-<section id="toprow">
+<main>
+        <div id="banner"></div><img src="http://brothert.net/dryoar/images/river-wide2.JPG" alt="Dry Oar Banner" class="fullwidth">
+        <section id="toprow">
+        <div class="leftcol">
         <h2>We run to relax</h2>
         <p>We believe that there is nothing like a river trip for relaxing. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the beauty that surrounds the rivers we love.</p>
-        <img src="http://brothert.net/dryoar/images/deso-2kayaks.jpg" width="420" alt="clients kayaking">
+        </div>
+        <div class="rightcol">
+            <img src="http://brothert.net/dryoar/images/deso-2kayaks.jpg" width="420" alt="clients kayaking">
+        </div>
 </section>
 <section id="middlerow">
-        <img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" width="420" alt="wild rapids">
+    <div class="leftcol"></div><img src="http://brothert.net/dryoar/images/snake-rapid1.jpg" width="420" alt="wild rapids">
+    <div class="rightcol">
         <h2>Come have a wild time!</h2>
         <p>That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.
         </p>
+        </div>
 </section>
 <section id="bottomrow">
         <h2>Join us!</h2>
         <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
 </section>
+</main>
         <footer>
+            <div class="footer">
             <p>&copy; 2016 Dry Oar || Marissa Barnes <p>
+            </div>
         </footer>
-         <img src= "Social/facebook.png" alt="facebook link" href="facebook.com>"> <img src="Social/twitter.png" alt="twitter link" href="twitter.com"> <img src="Social/youtube.png" alt="youtube link" href="instagram.com">
+            <div class="footer-img">
+         <img src= "Social/facebook.png" alt="facebook link" href="http://facebook.com>"> <img src="Social/twitter.png" alt="twitter link" href="http://twitter.com"> <img src="Social/youtube.png" alt="youtube link" href="http://instagram.com">
+        </div>
         </div>
     </body>
 </html>
