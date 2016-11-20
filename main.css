@@ -3,7 +3,7 @@
             }
             @import url('https://fonts.googleapis.com/css?family=Gruppo|Overlock+SC');
             section {
-            color: #881F00;
+            color: black;
             }
             
             section {
@@ -15,7 +15,7 @@
             }
             
             h1,h2 {
-                color: #023457;
+                color: #881F00;
                 font-family: 'Overlock SC', cursive;
                 line-height: 2;
                 margin-bottom: 0;
@@ -39,17 +39,24 @@
                 flex: 1 0 15em;
                 align-items:center; 
             }
+            #logo {
+                background-color:white;
+                position:relative;
+            }
             
             nav {
                 color: white;
-                background: #881F00;
+                background: #023457;
+                margin-top:-100px;
+                padding-left:100px;
             }
 
             nav > ul {
                 list-style-type:none;
                 display: flex;
                 flex-flow: row wrap;
-                line-height: 3em;
+                line-height: 4em;
+                position:relative;
             }
             
             nav li {
