@@ -39,9 +39,11 @@
                 flex: 1 0 15em;
                 align-items:center; 
             }
+
             #logo {
-                background-color:#FFF;
+                background-color:white;
                 position:relative;
+                width: 110px;
             }
             
             nav {
