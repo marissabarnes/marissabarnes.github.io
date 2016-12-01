@@ -117,9 +117,9 @@
                 height:55px; 
             }
     
-            .footer-img {
+            .footer-img img {
                 float:right;
                 height:50px;
                 margin-left: 10px;
-                padding: 10px;
+                padding: 2px;
             }
