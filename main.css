@@ -123,3 +123,18 @@
                 margin-left: 10px;
                 padding: 2px;
             }
+
+            .Utah {
+            flex-flow: column;
+            width: 33%;
+            }
+
+            .Idaho {
+            flex-flow: column;
+            width: 33%;
+            }
+
+            .Arizona {
+            flex-flow: column;
+            width: 33%;
+            }
