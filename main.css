@@ -1,7 +1,10 @@
  *{
                 box-sizing: border-box;
             }
-            @import url('https://fonts.googleapis.com/css?family=Gruppo|Overlock+SC');
+            
+            @import url('https://fonts.googleapis.com/css?family=Overlock+SC');
+            
+
             section {
             color: black;
             }
@@ -15,6 +18,7 @@
             }
             
             h1,h2 {
+                
                 color: #881F00;
                 font-family: 'Overlock SC', cursive;
                 line-height: 2;
@@ -24,11 +28,12 @@
             #toprow, #middlerow, #two, #four {
                 display: flex;
                 flex-flow: row wrap;
+                align-items: center;
             }
             
             .leftcol {
                 width: 48%;
-                flex: 1 0 15 em;
+                flex: 1 0 15em;
                 margin: .5em;
                 flex: 2;
                 align-items:center;
@@ -151,5 +156,4 @@
             float: left;
             padding: 10px;
             }
-        
             
